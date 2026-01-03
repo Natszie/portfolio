@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing web development projects, skills, and professional experience. Built with HTML5, CSS3, and vanilla JavaScript featuring smooth animations and interactive elements. 
 
-🌐 **Live Demo:** [View Website](https://natszie.github.io/portfolio/]
+🌐 **Live Demo:** [View Website](https://natszie.github.io/portfolio/)]
 
 ## 📋 Table of Contents
 
@@ -466,5 +466,6 @@ A: Basic SEO is included.  Consider adding meta tags, Open Graph tags, and struc
 **Made with ❤️ by Nathaniel Arquiza**
 
 If you found this helpful, please consider giving it a ⭐ on GitHub! 
+
 
 Last Updated: January 2026
