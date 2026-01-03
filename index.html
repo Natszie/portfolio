@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - Web Developer & Designer">
+    <title>Nathaniel A. | Entry Level Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Nathaniel Arquiza</span></h1>
+            <h2 class="typing-text" id="typingText"></h2>
+            <p class="fade-in-delay">Creating beautiful and functional web experiences</p>
+            <div class="hero-buttons fade-in-delay-2">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links fade-in-delay-3">
+                <a href="https://github.com/Natszie" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nathaniel-arquiza-ba29653a0/?trk=opento_sprofile_topcard"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:nathanielcarquiza@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-content animate-on-scroll">
+                <div class="about-text">
+                    <p>I'm a Junior Web Developer skilled in HTML, CSS, and JavaScript. I focus on clean, responsive
+                        designs and clear communication. I'm eager to help clients with small projects, fixes, and
+                        improvements while continuously improving my skills.</p>
+                    <p>I also have experience developing Android applications using Flutter in Android Studio, which
+                        gives me a broader perspective on creating user-friendly digital solutions across different
+                        platforms.</p>
+                    <p>Whether you need a new website built from scratch, improvements to an existing site, or fixes and
+                        updates, I'm committed to delivering quality work and maintaining open communication throughout
+                        the project.</p>
+                    <p>My portfolio includes both client work (ICTRL) and practice projects 
+that demonstrate my skills in responsive design and modern web development.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="counter" data-target="4">0</h3>
+                            <p>Practice Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter" data-target="4">0</h3>
+                            <p>Years Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="images/profile.jpg" alt="Nathaniel Arquiza - Web Developer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">My Skills</h2>
+            <div class="skills-grid animate-on-scroll">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                    <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Flutter</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="65"></div>
+                    </div>
+                    <span class="skill-percentage">65%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects section-padding">
+    <div class="container">
+        <h2 class="section-title animate-on-scroll">My Projects</h2>
+        <p class="section-subtitle animate-on-scroll">A collection of live projects and sample work demonstrating my web development skills</p>
+        
+        <div class="projects-grid animate-on-scroll">
+            
+            <!-- ICTRL - Live Project -->
+            <div class="project-card featured">
+                <div class="project-badge live">Live Project</div>
+                <div class="project-image">
+                    <img src="images/ictrl.png" alt="ICTRL App Screenshot">
+                    <div class="project-overlay">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>ICTRL - Parental Control App</h3>
+                    <p>A mobile application for parental controls that helps parents monitor and manage their children's gaming activities.  Built with Flutter and Firebase for real-time monitoring and notifications.</p>
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Firebase</span>
+                        <span>Android</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ictrl.netlify.app/" class="btn-icon" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/Natszie/ictrl" class="btn-icon" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Crafts Cafe - Sample Work -->
+            <div class="project-card">
+                <div class="project-badge sample">Sample Work</div>
+                <div class="project-image">
+                    <img src="images/crafts-cafe.png" alt="Crafts Cafe Website Screenshot">
+                    <div class="project-overlay">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Crafts Cafe Website</h3>
+                    <p>A fully responsive restaurant website featuring menu browsing, table reservation system, contact forms, and an elegant design.  Showcases modern web design principles and user experience.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://natszie.github.io/crafts-cafe/" class="btn-icon" target="_blank"><i class="fas fa-external-link-alt"></i> View Demo</a>
+                        <a href="https://github.com/Natszie/crafts-cafe" class="btn-icon" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TeaCubs Cafe - Sample Work -->
+            <div class="project-card">
+                <div class="project-badge sample">Sample Work</div>
+                <div class="project-image">
+                    <img src="images/teacubs.png" alt="TeaCubs Cafe Website Screenshot">
+                    <div class="project-overlay">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>TeaCubs Cafe Website</h3>
+                    <p>A modern cafe website with shopping cart functionality, delivery service integration, and interactive menu filtering. Features smooth animations and a cozy study-friendly atmosphere theme.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Cart System</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://natszie.github.io/teacubs/" class="btn-icon" target="_blank"><i class="fas fa-external-link-alt"></i> View Demo</a>
+                        <a href="https://github.com/Natszie/teacubs" class="btn-icon" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal Portfolio - Sample Work -->
+            <div class="project-card">
+                <div class="project-badge sample">Sample Work</div>
+                <div class="project-image">
+                    <img src="images/portfolio.png" alt="Portfolio Website Screenshot">
+                    <div class="project-overlay">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Professional Portfolio Website</h3>
+                    <p>A clean and modern portfolio website showcasing projects, skills, and contact information. Features smooth scrolling, animations, and a responsive design that works on all devices.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Animations</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#home" class="btn-icon"><i class="fas fa-external-link-alt"></i> You're Here! </a>
+                        <a href="https://github.com/Natszie/portfolio" class="btn-icon" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <div class="contact-content animate-on-scroll">
+                <div class="contact-info">
+                    <h3>Let's work together! </h3>
+                    <p>I'm always interested in hearing about new projects and opportunities. Whether you have a
+                        question or just want to say hi, feel free to reach out! </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>nathanielcarquiza@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+639569168510</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Guimba Nueva Ecija, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div class="form-success" id="formSuccess">Message sent successfully!</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Nathaniel Arquiza. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/Natszie" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nathaniel-arquiza-ba29653a0/? trk=opento_sprofile_topcard"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:youremail@gmail. com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
